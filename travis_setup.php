@@ -152,7 +152,7 @@ if(file_exists("$targetPath/composer.lock")) {
 	run("rm $targetPath/composer.lock");
 }
 
-run("cd ~ && composer install --no-ansi $installType -d $targetPath");
+run("cd ~ && composer install --no-ansi $installType -d $targetPath --verbose");
 
 /**
  * 8. Installer doesn't work out of the box without cms - delete the Page class if its not required
