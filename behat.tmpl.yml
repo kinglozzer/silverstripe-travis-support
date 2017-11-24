@@ -13,7 +13,7 @@ default:
       default_session: selenium2
       javascript_session: selenium2
       selenium2:
-        browser: firefox
+        browser: chrome
 
     SilverStripe\BehatExtension\Extension:
       screenshot_path: %behat.paths.base%/artifacts/screenshots
