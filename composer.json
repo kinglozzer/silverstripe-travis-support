@@ -13,6 +13,7 @@
 	},
 	"minimum-stability": "dev",
 	"require": {
-		"composer/semver": "^1.4"
+		"composer/semver": "^1.4",
+        "instaclick/php-webdriver":  "1.4.5"
 	}
 }
